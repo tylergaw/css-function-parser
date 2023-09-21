@@ -4,7 +4,7 @@
   "description": "Get the computed value of various CSS functions.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/tylergaw/css-function-parser/issues"
   },
-  "homepage": "https://github.com/tylergaw/css-function-parser#readme"
+  "homepage": "https://github.com/tylergaw/css-function-parser#readme",
+  "devDependencies": {
+    "vitest": "0.34.5"
+  }
 }
