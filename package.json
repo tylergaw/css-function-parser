@@ -1,0 +1,26 @@
+{
+  "name": "css-function-parser",
+  "version": "1.0.0",
+  "description": "Get the computed value of various CSS functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylergaw/css-function-parser.git"
+  },
+  "keywords": [
+    "css",
+    "css-function",
+    "sin",
+    "cos",
+    "tan"
+  ],
+  "author": "Tyler Gaw <me@tylergaw.com> (https://tylergaw.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylergaw/css-function-parser/issues"
+  },
+  "homepage": "https://github.com/tylergaw/css-function-parser#readme"
+}
