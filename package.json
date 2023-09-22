@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Get the computed value of various CSS functions.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "node --test",
+    "test:watch": "node --test --watch"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/tylergaw/css-function-parser/issues"
   },
-  "homepage": "https://github.com/tylergaw/css-function-parser#readme",
-  "devDependencies": {
-    "vitest": "0.34.5"
-  }
+  "homepage": "https://github.com/tylergaw/css-function-parser#readme"
 }

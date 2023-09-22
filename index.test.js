@@ -1,6 +1,9 @@
-import { expect, test } from "vitest";
-import { getParsedValue } from "./index";
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+import { getParsedValue } from "./index.js";
 
-test("Returns expected values for cos", () => {
-  expect(getParsedValue("cos(25deg)").value).toBe(0.9063077870366499);
+describe("#getParsedValue", () => {
+  it("should return expected values for cos", () => {
+    assert.equal(getParsedValue("cos(25deg)").value, 0.9063077870366499);
+  });
 });
